@@ -7,13 +7,16 @@
 (color-theme-initialize)
 ;;(load-file "/home/karthikk/.emacs.d/themes/zenburn.el")
 ;;(color-theme-zenburn)
-(color-theme-tty-dark)
+;;(load-file "/home/karthikk/.emacs.d/themes/color-theme-tango.el")
+;;(color-theme-tango)
+;;(color-theme-tty-dark)
 (color-theme-clarity)
 ;;(color-theme-comidia)
 ;;(color-theme-hober)
 
 ;;(prin1-to-string (x-list-fonts "*"))
-(set-default-font "DejaVu Sans Mono-14:Book:antialias=none")
+(set-default-font "Inconsolata-14:antialias=none")
+;;(set-default-font "DejaVu Sans Mono:Book:antialias=none")
 
 (cd "~/")
 
@@ -86,3 +89,5 @@
  '(jde-jdk-doc-url "http://training-server/javastuff/jdk-1_5_0_doc/docs/api/index.html")
 
 (setq password-cache-expiry nil)
+
+(global-linum-mode t)
